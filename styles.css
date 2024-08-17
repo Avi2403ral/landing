@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ff0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-icons a {
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('WhatsApp Image 2024-01-04 at 1.13.13 PM.jpeg')  no-repeat center/cover;
+
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: #474442;
+
+
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #ff0;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.info-item, .stats {
+    flex: 1;
+    text-align: center;
+}
+
+.info-link {
+    color: #ff0;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-item h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 18px;
+}
+
+.services {
+    background-color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 2000px;
+    text-align: justify;
+     
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+}
